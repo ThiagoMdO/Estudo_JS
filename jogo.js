@@ -34,7 +34,7 @@ function inicia_jogo(){
 		qtd_baloes_restantes=40;
 	}
 
-	//Difícil -> 30s
+	//Difícil -> 10s
 	if(nivel_jogo=='3'){
 		tempo=10;
 		qtd_baloes_restantes=3;
