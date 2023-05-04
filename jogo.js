@@ -30,14 +30,14 @@ function inicia_jogo(){
 
 	//Normal -> 60s
 	if(nivel_jogo=='2'){
-		tempo=60;
+		tempo=40;
 		qtd_baloes_restantes=40;
 	}
 
 	//Difícil -> 10s
 	if(nivel_jogo=='3'){
-		tempo=10;
-		qtd_baloes_restantes=3;
+		tempo=3;
+		qtd_baloes_restantes=10;
 	}
 
 	/* -- Gravar quantidade de balões inicial -- */
